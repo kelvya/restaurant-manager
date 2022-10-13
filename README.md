@@ -92,7 +92,6 @@
 
 <h2>RDFa</h2>
 
-<code>
         <!DOCTYPE html>
         <html lang="pt">
             <head>
@@ -105,42 +104,43 @@
                 </p>
             </body>
         </html>
-</code>
 
 <h2>JSON-LD (Link Data)</h2>
-<html>
-    <head>
-        <title>Bolo de Café</title>
-        <script type="aplication/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Recipe",
-            "name": "Bolo de café",
-            "autor": {
-                "@type": "Person",
-                "name": "Fernando M. Sousa",
-            },
-            "datePublished": "2018-03-10",
-            "description": "Este bolo é perfeito para a sua festa.",
-            "prepTime": "PT20M"
-        }
-        </script>
-    </head>
-        <body>
-            <h2>Bolo de Café</h2>
-            <p>
-                <i>Por Fernando M. Sousa, 10-06-2022</i>
-            </p>
-            <p>
-                Este bolo é perfeito para a sua festa.
-            </p>
-            <p>
-                Preparação: 20 minutos
-            </p>
-        </body>
-        </html>
 
-        <a href="https://giphy.com/gifs/masterchef-chefs-home-cooks-masterchef-season-7-3oEjHC7al4GfnudR7y">cooking</a>
+
+<html>
+<head>
+   <title>Bolo de Café</title>
+ <script type="aplication/ld+json">
+   {
+     "@context": "https://schema.org",
+      "@type": "Recipe",
+      "name": "Bolo de café",
+      "autor": {
+      "@type": "Person",
+      "name": "Fernando M. Sousa",
+     },
+     {
+        "datePublished": "2018-03-10",
+        "description": "Este bolo é perfeito para a sua festa.",
+        "prepTime": "PT20M"
+        }
+  </script>
+ </head>
+ <body>
+    <h2>Bolo de Café</h2>
+       <p>
+          <i>Por Fernando M. Sousa, 10-06-2022</i>
+       </p>
+       <p>
+          Este bolo é perfeito para a sua festa.
+        </p>
+        <p>
+          Preparação: 20 minutos
+        </p>
+      </body>
+      </html>
+
 
         <h2>Cores</h2>
 
@@ -152,14 +152,14 @@
        <p>rgb(0,255,0) = verde</p>
        <p>rgb(0,0,255) = azul</p>
 
-    <h3>R G B a</h3>
-    <P>Red(0-255) | Green (0-255) | Blue (0-255) | Transparência(0-1)</P>
-    <p>rgb(255,255,255, 0.8)</p>
+       <h3>R G B a</h3>
+       <P>Red(0-255) | Green (0-255) | Blue (0-255) | Transparência(0-1)</P>
+       <p>rgb(255,255,255, 0.8)</p>
 
-    <h3>H S L (hue - tonalidade, saturation - saturação, lightness - luminosidade)</h3>
+       <h3>H S L (hue - tonalidade, saturation - saturação, lightness - luminosidade)</h3>
 
-    <P>hue(0-360) | saturation (%) | lightness (%)</P>
-    <p>rgb(255,255,255, 0.8)</p>
+       <P>hue(0-360) | saturation (%) | lightness (%)</P>
+       <p>rgb(255,255,255, 0.8)</p>
 
        <h3>Hexadecimal</h3>
 
