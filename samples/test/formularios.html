@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platos Restaurante</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+
+<style>
+    body {
+        width: 80%;
+        margin: auto;
+        font-size: 1.3em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        line-height: 1.3em;
+        border: 1px dashed #ccc;
+        padding: 10px;
+    }
+
+    figure {
+        padding: 20px;
+    }
+
+    header * {
+        font-size: 2em;
+        font-weight: 700;
+    }
+
+    header img {
+        width: 80px;
+    }
+
+    audio{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    select{
+        font-size: 0.88em;
+    }
+</style>
+
+<body>
+    <header>
+        <img src="/images/recursosHTML/images/svg/cenoura.svg" alt="cenoura" width="30">
+        <span>Nosso Restaurante</span>
+        <hr/>
+        <audio src="/images/recursosHTML/audio/inspiring.mp3" type="audio/mp3" controls></audio>
+        <br>
+        <video width="60%" autoplay muted controls>
+            <source src="/images/recursosHTML/videos/refeicao.mp4" type="video/mp4">
+            <source src="/images/recursosHTML/videos/refeicao.webm" type="video/webm">
+        </video>
+    </header>
+
+    <nav>
+        <span>
+            Barra de navegação
+        </span>
+        <br>
+        <a href="../index.html">Início</a> |
+        <a href="#carnes">Carnes</a> |
+        <a href="#contato">Contato</a>
+    </nav>
+    <main>
+        <section>
+            <article>
+                <h1>
+                    Sobre Nosso Compromisso
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni error tenetur natus, soluta dignissimos odit quam animi aliquid deleniti blanditiis molestias similique harum culpa fugiat distinctio at maiores voluptatibus doloremque expedita. Facilis ratione possimus quibusdam, eligendi ab est veritatis facere unde reiciendis iusto maxime delectus in aut temporibus accusamus quis modi, repellendus harum quod sint officiis ipsa. Totam adipisci fugiat eaque doloribus sunt! Sequi dolorum tempore amet dignissimos possimus, quia numquam odit a consequatur soluta quae quas architecto impedit sit?                 
+                </p>
+                <img width="300" src="/images/recursosHTML/images/here-take-a-look-at-our-menu.jpg" alt="Conheça nosso menu" title="atendimento no restaurante"/>
+
+                <h3>
+                    Nossos pratos:
+                </h3>
+                <ol type="i" start="1"> <!--type="a,A,i, I" | start="4"-->
+                    <li>Pastas</li>
+                    <li>Carnes</li>
+                    <li>Caldos</li>
+                    <li>Frutos do mar</li>
+                </ol>
+            </article>
+            <hr/>
+            <article>
+                <nav>
+                    <a href="cozinha_01.html" target="cozinha">Tudo altamente selecionado</a>
+                    <a href="cozinha_02.html" target="cozinha">Conheça nosso espeto de vegetais</a>
+                </nav>
+                <iframe src="cozinha_01.html" frameborder="0" width="80%" height="900" name="cozinha"></iframe>
+            </article>
+            <hr/>
+            <article>
+                <h2>
+                    Artigo 2
+                </h2>
+            
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque ex porro quaerat alias quis magnam placeat, sapiente facilis expedita sint. Animi quam eos, maxime dolorem aspernatur numquam dicta perspiciatis, amet, consequatur natus modi quo dolore? Iusto harum cum eaque repudiandae veritatis tenetur dolorum? Veritatis doloremque officia excepturi sed repellat. Praesentium reiciendis voluptatem sit, officia, rem dolores illum ducimus temporibus aspernatur quo sequi itaque harum, error rerum doloremque cupiditate ab eos tenetur hic. Incidunt, culpa vitae. Iste quod repellendus cupiditate porro!
+                </p>
+
+                <h3>Saboreie nossa Coxinha barsileira, nossos drinks. Venha com a família e os amigos</h3>
+                <picture>
+                    <source media="(min-width:600px)" srcset="/images/recursosHTML/images/cocktail_500.jpg"/>
+                    <source media="(min-width:480px)" src="/images/recursosHTML/images/info_460.jpg"/>
+                    <img src="/images/recursosHTML/images/coxinha_215.jpg" alt="coxinha brasileira"/>
+                </picture>
+
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, optio. Fugit molestias optio laudantium assumenda dicta minus nam temporibus numquam. Eos minus commodi officiis doloribus corrupti nobis. Corrupti doloremque tenetur libero possimus alias aperiam tempore quaerat illum voluptatibus quia, similique eveniet? Animi esse vel corrupti voluptas placeat numquam, iste nostrum aliquid quaerat dolorum accusamus nobis fugit! Totam magnam, beatae enim tenetur, explicabo magni laudantium quaerat ipsam fugit autem nihil. <br>Explicabo laudantium dolor facere error incidunt, officiis ipsum voluptates voluptatibus quis eum ab exercitationem deleniti consequuntur. Nesciunt accusantium fuga quia maiores error sunt quod illum, perferendis, laborum totam eius! Fugit distinctio consectetur voluptatum similique quia vero, sit quasi perferendis esse, accusantium praesentium repellendus. In laborum dolor fugit autem, suscipit sequi ullam?
+                </p>
+            
+                <h3>
+                    Para acompanhar:
+                </h3>
+                <ul type="square"> <!--tipe="circle"-->
+                    <li>Saladas</li>
+                    <li>Sobremesas</li>
+                    <li>Vinhos</li>
+                </ul>
+
+                <pre>
+                    "Deus não joga dados"
+                            Albert Einstein__
+                </pre>
+
+            </article>
+            <hr/>
+            <article id="contato">
+                <h2>Deixe aqui seu recado</h2>
+                <form action="" method="post" enctype="multipart/form-data"><!--method get tem visão pela url-->
+                    <fieldset><!--Parametro disabled desabilita o preenchimento do formulário, talvez usando o JS pode-se desabilitar um novo preenchimento depois de enviar as informações-->
+                        <legend>Preencha todos os campos</legend>
+                        <ul>
+                            <li>
+                                <label for="nome">Nome</label> <!--O atributo for é sempre endereçado com o mesmo nome do imput-->
+                                <input type="text" id="nome" name="nome" autofocus maxlength="30" size="50" placeholder="Preencha com nome completo" required> <!--autofocus já deixa o cursor piscando aguardando o preenchimento e sempre que a página é carregada o cursor já fica piscando aguardando o preenchimento | maxlength quantidade máxima de caracteres que o usuário poderá digitar-->
+                            </li>
+                            <li>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" size="50" placeholder="Coloque o seu melhor email" required>
+                            </li>
+                            <li>
+                                <label for="convidados">Convidados</label>
+                                <input type="number" id="convidados" name="convidados" min="1" max="10" readonly required>
+                            </li>
+                            <li>
+                                <label for="entrada">Escolha sua entrada</label>
+                                <input list="entrada_opt" name="entrada" id="entrada">
+                                <datalist id="entrada_opt">
+                                    <option value="Caldo de Mandioquinha"></option>
+                                    <option value="Caprese no Palito"></option>
+                                    <option value="Patê de Azeitonas"></option>
+                                </datalist>
+                            </li>
+                            <li>
+                                <label for="aniversariante">Coloque a foto do aniversariante</label>
+                                <input type="file" id="aniversariante" name="aniversariante" accept="image/png">
+                            </li>
+                            <li>
+                                <label for="tipo_comida">Cozinha</label>
+                                <select title="cozinha" name="cozinha" id="cozinha">
+                                    <option value="...">...</option>
+                                    <!-- <option value="brasileira">Brasileira</option> -->
+                                    <optgroup label="Brasileira">
+                                        <option value="feijoada">Feijoada</option>
+                                        <option value="virado">Virado a paulista</option>
+                                    </optgroup>
+                                    <!-- <option value="italiana">Italiana</option> -->
+                                    <optgroup label="Italiana">
+                                        <option value="lasanha">Lasanha</option>
+                                        <option value="risotto">Risotto</option>
+                                    </optgroup>
+                                    <option value="francesa">Francesa</option>
+                                </select>
+                            </li>
+                            <hr/>
+                            <li>
+                                <label for="data_niver">Data do aniversário</label>
+                                <input type="date" name="data_niver" id="data_niver">
+                            </li>
+                            <li>
+                                <label for="cor_festa">Cor do tema</label>
+                                <input title="cor_festa" type="color" name="cor_festa" id="cor_festa" value="#00ff00">
+                            </li>
+                            <hr/>
+                            <li>
+                                <label for="servicos">Serviços adicionais:</label><br>
+                                <input title="musico" style="accent-color:red;" title="musicos" type="checkbox" name="servicos" id="musico" checked>Músico
+                                <input title="danca_do_ventre" type="checkbox" name="servicos" id="danca_do_ventre">Dança do Ventre
+                                <input title="magico" type="checkbox" name="servicos" id="magico">Mágico
+                            </li>
+                            <li>
+                                <label for="bolo">Bolo do aniversariante</label>
+                                <input title="bolo_proprio" type="radio" name="bolo" id="bolo_proprio">Bolo próprio
+                                <input checked title="bolo_nosso" type="radio" name="bolo" id="bolo_nosso">Bolo nosso restaurante
+                            </li>
+                            <hr/>
+                            <li>
+                                <label for="obs">Observações</label><br>
+                                <textarea title="obs" name="obs" id="" cols="30" rows="10"></textarea>
+                            </li>
+                            <li>
+                                <input type="image" src="/images/recursosHTML/images/png/btn_bolo.png" alt="Enviar a mensagem" width="200">
+                                <input type="submit" value="Confirmar o envio">
+                                <!-- <button type="submit">Confirmar</button> -->
+                            </li>
+                        </ul>
+                    </fieldset>
+                </form>
+            </article>
+            <article>
+                <form oninput="pessoas.value=qtd.value;res.value=`R$ ${parseInt(qtd)*50},00`">
+                    <label for="">Calcule a quantidade de convidados</label>
+                    <input title="qtd" type="range" name="qtd" id="qtd" min="1" max="10" value="1">
+                    <input title="qtd" type="number" name="pessoas" id="pessoas" max="10" min="1" value="1">
+                    <output name="res" id="res">R$ 50,00</output>
+                </form>
+            </article>
+            <article id="carnes">
+                <h2>
+                    Carnes
+                </h2>
+            
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est tenetur minus deleniti nesciunt magnam possimus
+                </p>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid eius necessitatibus fugiat dicta mollitia magni voluptate dolores voluptatibus sequi deserunt. Impedit, pariatur similique ipsa corporis veniam unde dolore quasi omnis ea vel! Voluptate repellendus ex, maiores enim fugiat rerum praesentium quisquam ducimus fuga est! Error asperiores voluptas libero magni tenetur quae amet architecto delectus nisi consequuntur assumenda illum sapiente eveniet et tempora fugiat, maiores voluptates cum dolor. Molestiae quos beatae dolor, sequi pariatur minus eaque eveniet facilis hic nesciunt dolore necessitatibus voluptates deserunt vero incidunt doloremque sunt? Incidunt cumque eveniet corrupti porro repellendus obcaecati saepe officia dolores explicabo, molestiae tempora totam natus doloremque illum amet aut expedita praesentium necessitatibus nobis beatae libero deleniti! Sit ex, explicabo officia dignissimos sequi optio.
+                </p>
+            
+                <h3>
+                    Para acompanhar:
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias labore quisquam rerum! Repellendus, veritatis ullam.
+                </p>
+                <dl>
+                    <dt>Carnes</dt>
+                    <dd>Maminha na manteiga</dd>
+                    <dd>Picanha maturada</dd>
+                    <dd>Fraldinha</dd>
+                </dl>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, odit. Ipsam, dolor recusandae nam distinctio
+                    perferendis sequi amet maxime sunt facilis quis reprehenderit. Eius a nesciunt dolorem totam, maiores ullam porro
+                    quae blanditiis repellendus optio quibusdam provident reiciendis exercitationem tempore modi. Laudantium soluta, ut
+                    placeat officia assumenda aliquam cupiditate nostrum harum illum eaque eveniet quia. Exercitationem et suscipit sed,
+                    neque corporis id optio quam facilis pariatur sunt? Assumenda quaerat veritatis possimus minus? Magnam doloremque
+                    eum explicabo ratione velit suscipit, tempore saepe, placeat porro, earum sunt est reiciendis. <br> Earum repudiandae,
+                    culpa odit consequuntur odio autem perferendis, dolorem necessitatibus corrupti magnam iusto aperiam deserunt,
+                    blanditiis aut. Natus nam aperiam dolor quae quisquam magnam voluptas, ab consequuntur blanditiis, adipisci earum
+                    sed, eos perferendis exercitationem ipsum ex itaque quidem dolorum libero cum tempora. Optio at voluptatibus qui eos
+                    aliquid necessitatibus molestiae praesentium ipsum obcaecati facere, voluptas libero mollitia officia non dolorem
+                    repudiandae, vitae aperiam.
+                </p>
+
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, odit. Ipsam, dolor recusandae nam distinctio
+                    perferendis sequi amet maxime sunt facilis quis reprehenderit. Eius a nesciunt dolorem totam, maiores ullam porro
+                    quae blanditiis repellendus optio quibusdam provident reiciendis exercitationem tempore modi. Laudantium soluta, ut
+                    placeat officia assumenda aliquam cupiditate nostrum harum illum eaque eveniet quia. Exercitationem et suscipit sed,
+                    neque corporis id optio quam facilis pariatur sunt? Assumenda quaerat veritatis possimus minus? Magnam doloremque
+                    eum explicabo ratione velit suscipit, tempore saepe, placeat porro, earum sunt est reiciendis. <br> Earum
+                    repudiandae,
+                    culpa odit consequuntur odio autem perferendis, dolorem necessitatibus corrupti magnam iusto aperiam deserunt,
+                    blanditiis aut. Natus nam aperiam dolor quae quisquam magnam voluptas, ab consequuntur blanditiis, adipisci earum
+                    sed, eos perferendis exercitationem ipsum ex itaque quidem dolorum libero cum tempora. Optio at voluptatibus qui eos
+                    aliquid necessitatibus molestiae praesentium ipsum obcaecati facere, voluptas libero mollitia officia non dolorem
+                    repudiandae, vitae aperiam.
+                </p>
+            
+            </article>
+        </section>
+    </main>
+
+    <hr/>
+
+    <footer>
+        <a href="/index.html#carnes">
+            <img width="150" src="/images/recursosHTML/images/here-take-a-look-at-our-menu.jpg" alt="Conheça nosso menu"
+                title="atendimento no restaurante" />
+        </a>
+        <p>&copy;2022 - Todos os direitos reservados</p>
+    </footer>
+    
+</body>
+</html>
