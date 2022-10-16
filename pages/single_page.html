@@ -6,67 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosso Restaurante</title>
     <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<style>
-    body {
-        width: 80%;
-        margin: auto;
-        font-size: 1.3em;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        line-height: 1.3em;
-        border: 1px dashed #ccc;
-        padding: 10px;
-    }
-
-    figure {
-        padding: 20px;
-    }
-
-    header * {
-        font-size: 2em;
-        font-weight: 700;
-    }
-
-    header nav ul li{
-        font-size:16px;
-    }
-
-    header img {
-        width: 80px;
-    }
-
-    audio {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    select {
-        font-size: 0.88em;
-    }
-
-</style>
 <body>
     <header>
-        <img src="/images/recursosHTML/images/svg/cenoura.svg" alt="cenoura" width="30">
-        <span>nosso restaurante</span>
-        <br><br>
-        <img src="/images/recursosHTML/images/salmon-1312372.jpg" alt="" style="width:100%;">
-        <nav>
+        <div class="navPos">
+            <ul>
+                <!-- <li>
+                    <a href="sobre">Sobre</a>
+                </li>
+                <li>
+                    <a href="pratos">Pratos</a>
+                </li>
+                <li>
+                    <a href="reservas">Reservas</a>
+                </li> -->
+                <li>
+                    <a href="#sobre"><i class="fa fa-star" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href="#pratos"><i class="fa fa-cutlery" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href="#reservas"><i class="fa fa-calendar" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+            
+        </div>
+        <div class="logo">
+            <img src="/images/recursosHTML/images/svg/cenoura.svg" alt="cenoura" width="30">
+            <span>nosso restaurante</span>
+        </div>
+        <div class="slogan">
+            <img src="/images/recursosHTML/images/salmon-1312372.jpg" alt="" style="width:100%;">
+            <p class="lobster">Seu melhor lugar e o seu melhor momento</p>
+        </div>
+        </header>
+        <!-- NAVBAR -->
+        <nav class="nav1" id="navBar">
             <ul>
                 <li>
-                    <a href="#sobre">Sobre nós</a> |
-                    <a href="#pratos">Pratos</a> |
+                    <a href="#sobre">Sobre nós</a>
+                    <a href="#pratos">Pratos</a>
                     <a href="#reservas">Faça a sua reserva</a>
                 </li>
             </ul>
         </nav>
-    </header>
+    
     <main>
         <section>
             <article id="sobre">
                 <h2 class="h2Color">
                     Sobre Nosso Compromisso
                 </h2>
+                <span>Vocé é o que mais nos importa</span>
                 
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni error tenetur natus, soluta dignissimos odit quam
@@ -76,140 +72,249 @@
                     fugiat eaque doloribus sunt! Sequi dolorum tempore amet dignissimos possimus, quia numquam odit a consequatur soluta
                     quae quas architecto impedit sit?
                 </p>
-                <img width="50%" src="/images/recursosHTML/images/here-take-a-look-at-our-menu.jpg" alt="Conheça nosso menu" title="atendimento no restaurante" /><img width="50%" src="/images/recursosHTML/images/chef-939437_1920.jpg" alt="Conheça nosso menu"
-                    title="atendimento no restaurante" />
+                <div class="container01">
+                    <div>
+                        <img width="100%" src="/images/recursosHTML/images/here-take-a-look-at-our-menu.jpg" alt="Conheça nosso menu"
+                        title="conheça nosso menu" />
+                    </div>
+                    <div>
+                        <img width="100%" src="/images/recursosHTML/images/chef-939437_1920.jpg" alt="Conheça nosso menu"
+                            title="conheça nosso menu" />
+                    </div>
+                </div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta accusamus excepturi, nisi vero, autem veniam voluptates libero itaque voluptatum quaerat quod ipsam pariatur iste natus repudiandae consequuntur eos? Natus unde eius vero vel fugiat nostrum repellendus, voluptatibus totam maxime corporis suscipit similique enim rem sequi expedita eos. Voluptatibus iste consectetur, impedit sequi mollitia incidunt assumenda veritatis, nemo, totam laborum aliquam sunt explicabo nisi est error consequuntur neque consequatur distinctio soluta facilis veniam harum nihil. Quae itaque, quis saepe explicabo nesciunt sapiente sunt obcaecati! Molestiae, molestias adipisci ullam sapiente, omnis quia officiis error a corrupti incidunt totam? Libero fugit rerum odio!
                 </p>
+                <div class="navUp">
+                    <a href="#navBar"><i class="fa fa-arrow-up fa-2x" aria-hidden="true"></i></a>
+                </div>
             </article>
             <article id="pratos">
-                <h2>Aprecie nossos pratos especiais</h2>
+                <h2 calss="h2Color">Aprecie nossos pratos especiais</h2>
+                <span>A qualidade é o nosso lema</span>
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis sequi fuga reprehenderit recusandae! Ratione temporibus sint, inventore qui modi laudantium consectetur rem cupiditate possimus reprehenderit exercitationem officiis impedit aspernatur ad illum neque praesentium natus quo iste eligendi? Sunt voluptatibus dignissimos voluptatum rerum dolorum at. Ut, repudiandae fugit! Autem cumque maiores sapiente, dolore nihil debitis culpa nesciunt inventore eveniet explicabo excepturi, sed quo labore tenetur eaque! Repudiandae aperiam iure esse corporis qui natus itaque illo, velit, hic nihil asperiores, perspiciatis quos.
                 </p>
-                <table>
-                    <tr>
-                        <td width="25%">
+                <ul class="listaInfo">
+                    <li>
+                        <i class="fa fa-cutlery" aria-hidden="true"></i>
+                        Para sua festa de aniversário
+                    </li>
+                    <li>
+                        <i class="fa fa-cutlery" aria-hidden="true"></i>
+                        Para a festa da sua empresa
+                    </li>
+                    <li>
+                        <i class="fa fa-cutlery" aria-hidden="true"></i>
+                        Para o seu final de semana com os amigos
+                    </li>
+                </ul>
+                <div class="container02">
+                        <div width="25%">
                             <img width="100%" src="/images/recursosHTML/images/baked-salmon-garnished-with-asparagus-and-tomatoes-with-herbs.jpg" alt="Salmão">
-                        </td>
-                        <td>
+                        </div>
+                        <div>
                             <h3>Salmão grelhado</h3>
                             <p>R$ 80,00</p>
                             <p>No almoço</p>
-                        </td>
-                        <td>
+                        </div>
+                        <div width="25%">
                             <img width="100%" src="/images/recursosHTML/images/authentic-italian-pasta.jpg" alt="Spaghetti">
-                        </td>
-                        <td width="25%">
+                        </div>
+                        <div>
                             <h3>Spaghetti ao molho bolonhesa</h3>
                             <p>R$ 70,00</p>
                             <p>No almoço</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="25%">
+                        </div>
+                        <div>
                             <h3>Espeto de vegetais</h3>
                             <p>R$ 65,00</p>
                             <p>Aos Domingos</p>
-                        </td>
-                        <td width="25%">
+                        </div>
+                        <div width="25%">
                             <img width="100%"
                                 src="/images/recursosHTML/images/frutas-e-vegetais.jpg"
                                 alt="Frutas e vegetais">
-                        </td>
-                        <td width="25%">
+                        </div>
+                        <div>
                             <h3>Pizza Pepperoni</h3>
                             <p>R$ 54,00</p>
                             <p>A noite com os amigos</p>
-                        </td>
-                        <td>
+                        </div>
+                        <div width="25%">
                             <img width="100%" src="/images/recursosHTML/images/pizza-pepperoni-on-the-table.jpg" alt="Pizza pepperoni">
-                        </td >
-                        
-                    </tr>
-                </table>
+                        </div >
+                </div>
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel consectetur ut facere, aspernatur perspiciatis laudantium nisi deleniti fugit corporis dolores quidem hic veritatis odit iure voluptatem dolore eos consequatur? Voluptas cumque tempore laboriosam, iure ipsam vero et sit vitae cum ut ad magni labore asperiores aliquam in architecto, autem optio.
                 </p>
+                <div class="navUp">
+                    <a href="#navBar"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+                </div>
+                <table>
+                    <tr>
+                        <td colspan="4">
+                            <p>
+                                Confira suas opções!
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Pratos</th>
+                        <th>Sobremesas</th>
+                        <th>Acompanhamentos</th>
+                        <th>Bebidas</th>
+                    </tr>
+                    <tr>
+                        <td>Picanha</td>
+                        <td>Sorvete</td>
+                        <td>Salada</td>
+                        <td>Água com gás</td>
+                    </tr>
+                    <tr>
+                        <td>Pasta Italiana</td>
+                        <td>Bolo de limão</td>
+                        <td>Fritas</td>
+                        <td>Água sem gás</td>
+                    </tr>
+                    <tr>
+                        <td>Brasileira</td>
+                        <td>Bolo de laranja</td>
+                        <td>Bacon</td>
+                        <td>Chá Inglês</td>
+                    </tr>
+                    <tr>
+                        <td>Feijoada</td>
+                        <td>Pêssego em calda</td>
+                        <td>Macaxeira</td>
+                        <td>Café expresso</td>
+                    </tr>
+                    <tr>
+                        <td>Baião de dois</td>
+                        <td>Bomba de chocolate</td>
+                        <td>Pirão</td>
+                        <td>Suco de graviola</td>
+                    </tr>
+                </table>
             </article>
             <article id="reservas">
-                <h2>Reserve nosso espaço para o seu aniversário</h2>
-                <form action="" method="post" enctype="multipart/form-data">
-                    <!--method get tem visão pela url-->
-                    <fieldset>
-                        <!--Parametro disabled desabilita o preenchimento do formulário, talvez usando o JS pode-se desabilitar um novo preenchimento depois de enviar as informações-->
-                        <legend>Preencha todos os campos</legend>
-                        <ul>
-                            <li>
-                                <label for="nome">Nome</label>
-                                <!--O atributo for é sempre endereçado com o mesmo nome do imput-->
-                                <input type="text" id="nome" name="nome" autofocus maxlength="30" size="50" required>
-                                <!--autofocus já deixa o cursor piscando aguardando o preenchimento e sempre que a página é carregada o cursor já fica piscando aguardando o preenchimento | maxlength quantidade máxima de caracteres que o usuário poderá digitar-->
-                            </li>
-                            <li>
-                                <label for="email">Email</label>
-                                <input type="email" id="email" name="email" size="50" required>
-                            </li>
-                            <li>
-                                <label for="convidados">Convidados</label>
-                                <input type="number" id="convidados" name="convidados" min="1" max="10" readonly required>
-                            </li>
-                            <li>
-                                <label for="entrada">Escolha sua entrada</label>
-                                <input list="entrada_opt" name="entrada" id="entrada">
-                                <datalist id="entrada_opt">
-                                    <option value="Caldo de Mandioquinha"></option>
-                                    <option value="Caprese no Palito"></option>
-                                    <option value="Patê de Azeitonas"></option>
-                                </datalist>
-                            </li>
-                            <li>
-                                <label for="aniversariante">Coloque a foto do aniversariante</label>
-                                <input type="file" id="aniversariante" name="aniversariante" accept="image/png">
-                            </li>
-                            <li>
-                                <label for="tipo_comida">Cozinha</label>
-                                <select title="cozinha" name="cozinha" id="cozinha">
-                                    <option value="...">...</option>
-                                    <!-- <option value="brasileira">Brasileira</option> -->
-                                    <optgroup label="Brasileira">
-                                        <option value="feijoada">Feijoada</option>
-                                        <option value="virado">Virado a paulista</option>
-                                    </optgroup>
-                                    <!-- <option value="italiana">Italiana</option> -->
-                                    <optgroup label="Italiana">
-                                        <option value="lasanha">Lasanha</option>
-                                        <option value="risotto">Risotto</option>
-                                    </optgroup>
-                                    <option value="francesa">Francesa</option>
-                                </select>
-                            </li>
-                            <li>
-                                <label for="data_niver">Data do aniversário</label>
-                                <input type="date" name="data_niver" id="data_niver">
-                            </li>
-                            <li>
-                                <label for="cor_festa">Cor do tema</label>
-                                <input title="cor_festa" type="color" name="cor_festa" id="cor_festa">
-                            </li>
-                            <li>
-                                <label for="obs">Observações</label><br>
-                                <textarea title="obs" name="obs" id="" cols="30" rows="10"></textarea>
-                            </li>
-                            <li>
-                                <input type="image" src="/images/recursosHTML/images/png/btn_bolo.png" alt="Enviar a mensagem"
-                                    width="200">
-                                <input type="submit" value="Confirmar o envio">
-                                <!-- <button type="submit">Confirmar</button> -->
-                            </li>
-                        </ul>
-                    </fieldset>
-                </form>
+                <h2 class="h2Color">Reserve nosso espaço para o seu aniversário</h2>
+                <span>Descontos incríveis para você fazer a sua festa</span>
+                <article id="contato">
+                    <h2>Deixe aqui seu recado</h2>
+                    <form id="formReserva" action="" method="post" enctype="multipart/form-data">
+                        <!--method get tem visão pela url-->
+                        <fieldset>
+                            <!--Parametro disabled desabilita o preenchimento do formulário, talvez usando o JS pode-se desabilitar um novo preenchimento depois de enviar as informações-->
+                            <legend>Preencha todos os campos</legend>
+                            <ul>
+                                <li>
+                                    <label for="nome">Nome</label>
+                                    <!--O atributo for é sempre endereçado com o mesmo nome do imput-->
+                                    <input type="text" id="nome" name="nome" autofocus maxlength="30" size="50"
+                                        placeholder="Preencha com nome completo" required>
+                                    <!--autofocus já deixa o cursor piscando aguardando o preenchimento e sempre que a página é carregada o cursor já fica piscando aguardando o preenchimento | maxlength quantidade máxima de caracteres que o usuário poderá digitar-->
+                                </li>
+                                <li>
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" size="50" placeholder="Coloque o seu melhor email"
+                                        required>
+                                </li>
+                                <li>
+                                    <label for="convidados">Convidados</label>
+                                    <input type="number" id="convidados" name="convidados" min="1" max="10" readonly required>
+                                </li>
+                                <li>
+                                    <label for="entrada">Escolha sua entrada</label>
+                                    <input list="entrada_opt" name="entrada" id="entrada">
+                                    <datalist id="entrada_opt">
+                                        <option value="Caldo de Mandioquinha"></option>
+                                        <option value="Caprese no Palito"></option>
+                                        <option value="Patê de Azeitonas"></option>
+                                    </datalist>
+                                </li>
+                                <li>
+                                    <label for="aniversariante">Coloque a foto do aniversariante</label>
+                                    <input type="file" id="aniversariante" name="aniversariante" accept="image/png">
+                                </li>
+                                <li>
+                                    <label for="tipo_comida">Cozinha</label>
+                                    <select title="cozinha" name="cozinha" id="cozinha">
+                                        <option value="...">...</option>
+                                        <!-- <option value="brasileira">Brasileira</option> -->
+                                        <optgroup label="Brasileira">
+                                            <option value="feijoada">Feijoada</option>
+                                            <option value="virado">Virado a paulista</option>
+                                        </optgroup>
+                                        <!-- <option value="italiana">Italiana</option> -->
+                                        <optgroup label="Italiana">
+                                            <option value="lasanha">Lasanha</option>
+                                            <option value="risotto">Risotto</option>
+                                        </optgroup>
+                                        <option value="francesa">Francesa</option>
+                                    </select>
+                                </li>
+                                <hr />
+                                <li>
+                                    <label for="data_niver">Data do aniversário</label>
+                                    <input type="date" name="data_niver" id="data_niver">
+                                </li>
+                                <li>
+                                    <label for="cor_festa">Cor do tema</label>
+                                    <input title="cor_festa" type="color" name="cor_festa" id="cor_festa" value="#00ff00">
+                                </li>
+                                <hr />
+                                <li>
+                                    <label for="servicos">Serviços adicionais:</label><br>
+                                    <input 
+                                        title="musico" style="accent-color:red;" title="musicos" 
+                                        type="checkbox" 
+                                        name="servicos"
+                                        id="musico" 
+                                        checked
+                                    /> <span>Músico</span>
+                                    <input 
+                                        title="danca_do_ventre" type="checkbox" 
+                                        name="servicos" id="danca_do_ventre"
+                                    /> <span>Dança do Ventre</span>
+                                    <input 
+                                    title="magico" 
+                                    type="checkbox" 
+                                    name="servicos" id="magico"
+                                    /> <span>Mágico</span>
+                                </li>
+                                <li>
+                                    <label for="bolo">Bolo do aniversariante</label>
+                                    <input title="bolo_proprio" type="radio" name="bolo" id="bolo_proprio">Bolo próprio
+                                    <input checked title="bolo_nosso" type="radio" name="bolo" id="bolo_nosso">Bolo nosso restaurante
+                                </li>
+                                <hr />
+                                <li>
+                                    <label for="obs">Observações</label><br>
+                                    <textarea title="obs" name="obs" id="" cols="30" rows="10"></textarea>
+                                </li>
+                                <li>
+                                    <input type="image" src="/images/recursosHTML/images/png/btn_bolo.png" alt="Enviar a mensagem"
+                                        width="200">
+                                    <input type="submit" value="Confirmar o envio">
+                                    <!-- <button type="submit">Confirmar</button> -->
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </form>
+                    <div class="navUp">
+                        <a href="#navBar"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+                    </div>
+            </article>
+            <article id="frutosDoMar">
+                <span>Frutos do Mar</span>
+                <img calss="lagosta" src="/images/recursosHTML/images/lagosta.png" alt="lagosta">
+                <img class="peixe" src="/images/recursosHTML/images/peixe.png" alt="peixe">
             </article>
         </section>
     </main>
     <footer>
-        <table border="1" width="100%">
+        <table width="100%">
             <tr>
                 <td width="50%">
                     <p>
@@ -218,10 +323,14 @@
                     <p>
                         +55 11 999XX-33XX
                     </p>
-                    <img src="/images/recursosHTML/images/facebook.png" width="45" alt="facebook">
-                    <img src="/images/recursosHTML/images/instagram.png" width="45" alt="instagram">
-                    <img src="/images/recursosHTML/images/linkedin.png" width="45" alt="linkedin">
-                    <img src="/images/recursosHTML/images/whatsapp.png" width="45" alt="whatsapp">
+                    <i style="color: red;"class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                    <!-- <img src="/images/recursosHTML/images/facebook.png" width="45" alt="facebook"> -->
+                    <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                    <!-- <img src="/images/recursosHTML/images/instagram.png" width="45" alt="instagram"> -->
+                    <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                    <!-- <img src="/images/recursosHTML/images/linkedin.png" width="45" alt="linkedin"> -->
+                    <i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i>
+                    <!-- <img src="/images/recursosHTML/images/whatsapp.png" width="45" alt="whatsapp"> -->
                 </td>
                 <td width="50%">
                     <form action="" method="post">
@@ -254,6 +363,18 @@
                 </td>
             </tr>
         </table>
+        <div id="imgFooter" class="container01">
+            <div>
+                <span>
+                    Coxinha Brasileira
+                </span>
+            </div>
+            <div>
+                <span>
+                    Vegetais e frutas
+                </span>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
